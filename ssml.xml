@@ -1,0 +1,46 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.w3.org/2001/10/synthesis  http://www.w3.org/TR/speech-synthesis/synthesis.xsd" xml:lang="zh-CN">
+第一个标志 
+<mark name="mark1"/>
+<silence msec="5000"/>
+第二个标志
+<mark name="mark2"/>
+读音测试 
+<phoneme alphabet="x-microsoft-ups" ph="S1 W AA T . CH AX . M AX . S2 K AA L . IH T">哈哈哈 </phoneme>.
+读日期
+<say-as interpret-as="date:mdy"> 04/30/2013   </say-as>
+This <say-as interpret-as="ordinal"> 4th </say-as> 
+正常数字
+<prosody volume="+6dB">
+       大声说话
+   </prosody>
+<prosody volume="-6dB">
+       小声说话
+   </prosody>
+
+</speak>
+
+
+
+
+
+
+<?xml version="1.0"?>
+<!DOCTYPE speak PUBLIC "-//W3C//DTD SYNTHESIS 1.0//EN"
+                  "http://www.w3.org/TR/speech-synthesis/synthesis.dtd">
+<speak version="1.0"
+       xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                   http://www.w3.org/TR/speech-synthesis/synthesis.xsd"
+       xml:lang="en-US">
+  <p>
+    <s>You have 4 new messages.</s>
+    <s>The first is from Stephanie Williams and arrived at <break/> 3:45pm.
+    </s>
+    <s>
+      The subject is <prosody rate="-20%">ski trip</prosody>
+    </s>
+
+  </p>
+</speak>
